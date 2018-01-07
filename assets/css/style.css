@@ -446,7 +446,14 @@ body {
       margin-bottom: 30px; }
       body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img {
         position: relative;
-        overflow: hidden; }
+        overflow: hidden;
+        height: 350px; }
+        @media only screen and (max-width: 991px) {
+          body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img {
+            height: 250px; } }
+        @media only screen and (max-width: 767px) {
+          body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img {
+            height: 200px; } }
         body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img .overlay {
           position: absolute;
           top: 0;
@@ -473,7 +480,7 @@ body {
             top: 46%; }
             body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img .overlay .description h3 {
               font-family: "Roboto", sans-serif;
-              font-size: 40px;
+              font-size: 30px;
               font-weight: 500;
               color: #ffffff;
               margin: 0; }
@@ -522,9 +529,9 @@ body {
             font-size: 24px;
             line-height: 30px; } }
     body .sectionSix .section_six_wrapper .description {
+      font-family: "Roboto", sans-serif;
       margin: 0 auto;
-      display: table;
-      font-family: "Roboto", sans-serif; }
+      display: table; }
       body .sectionSix .section_six_wrapper .description .basic_info_list {
         display: inline-block; }
         body .sectionSix .section_six_wrapper .description .basic_info_list ul {

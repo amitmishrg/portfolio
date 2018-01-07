@@ -530,6 +530,13 @@ body {
                     .portfolio_img {
                         position: relative;
                         overflow: hidden;
+                        height: 350px;
+                        @media only screen and (max-width: 991px) {
+                          height: 250px;
+                        }
+                        @media only screen and (max-width: 767px) {
+                          height: 200px;
+                        }
                         .overlay {
                             position: absolute;
                             top: 0;
@@ -560,7 +567,7 @@ body {
                                 top: 46%;
                                 h3 {
                                     font-family: $font;
-                                    font-size: 40px;
+                                    font-size: 30px;
                                     font-weight: 500;
                                     color: #ffffff;
                                     margin: 0;
@@ -624,6 +631,8 @@ body {
             }
             .description {
                 font-family: $font;
+                margin: 0 auto;
+                display: table;
                 .basic_info_list {
                     display: inline-block;
                     ul {
@@ -652,10 +661,10 @@ body {
                     }
                 }
             }
-            .contact_form_wrapper {
-            	padding: 30px;
-            	border-radius: 4px;
-				background-color: rgba(120, 133, 219, 0.08);
+      .contact_form_wrapper {
+      	padding: 30px;
+      	border-radius: 4px;
+	      background-color: rgba(120, 133, 219, 0.08);
 				.form-control {
 					text-transform: uppercase;
 				    border: none;
@@ -685,7 +694,7 @@ body {
 				    	box-shadow: none;
 				    	outline: none;
 				    }
-				    
+
 				}
 				button {
 					font-size: 18px;
