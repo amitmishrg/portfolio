@@ -522,6 +522,8 @@ body {
             font-size: 24px;
             line-height: 30px; } }
     body .sectionSix .section_six_wrapper .description {
+      margin: 0 auto;
+      display: table;
       font-family: "Roboto", sans-serif; }
       body .sectionSix .section_six_wrapper .description .basic_info_list {
         display: inline-block; }
