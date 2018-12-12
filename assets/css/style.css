@@ -156,7 +156,7 @@ body {
           list-style: none;
           padding: 0; }
           body .sectionTwo .section_two_wrapper .description .basic_info_list ul li {
-            display: block;
+            display: flex;
             border-bottom: solid 1px rgba(115, 128, 217, 0.2);
             padding: 15px 0; }
             body .sectionTwo .section_two_wrapper .description .basic_info_list ul li:last-child {
