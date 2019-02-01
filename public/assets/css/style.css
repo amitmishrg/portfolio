@@ -33,7 +33,7 @@ body {
       @media only screen and (max-width: 767px) {
         body .sectionOne .section_one_wrapper {
           padding: 50px 30px;
-          margin: 30px 0; } }
+          margin: 30px auto; } }
       body .sectionOne .section_one_wrapper .profile_info .name_wrapper h4 {
         font-family: "Roboto", sans-serif;
         font-size: 30px;
@@ -295,7 +295,12 @@ body {
           list-style: none;
           display: flex;
           flex-wrap: wrap;
-          width: 600px; }
+          width: calc(100% - 300px); }
+          @media only screen and (max-width: 767px) {
+            body .sectionThree .section_three_wrapper .description .skill_list .languages ul,
+            body .sectionThree .section_three_wrapper .description .skill_list .tools ul {
+              width: 100%;
+              padding: 10px; } }
           body .sectionThree .section_three_wrapper .description .skill_list .languages ul li,
           body .sectionThree .section_three_wrapper .description .skill_list .tools ul li {
             display: inline-block;
@@ -417,6 +422,8 @@ body {
               line-height: 18px; } }
       body .sectionFour .section_four_wrapper .experience_list_wrapper .experience_list .logo {
         margin-left: 50px; }
+        body .sectionFour .section_four_wrapper .experience_list_wrapper .experience_list .logo img {
+          max-width: 100%; }
         @media only screen and (max-width: 767px) {
           body .sectionFour .section_four_wrapper .experience_list_wrapper .experience_list .logo {
             margin-left: 0;
@@ -668,6 +675,9 @@ body {
                 color: #1e1c24;
                 width: 200px;
                 display: inline-block; }
+                @media only screen and (max-width: 767px) {
+                  body .sectionSeven .section_six_wrapper .description .basic_info_list ul li span.title {
+                    display: block; } }
               body .sectionSeven .section_six_wrapper .description .basic_info_list ul li span.detail {
                 font-size: 24px;
                 color: #7380d9; }

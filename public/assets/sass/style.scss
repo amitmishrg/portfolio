@@ -39,7 +39,7 @@ body {
       border-radius: 20px;
       @media only screen and (max-width: 767px) {
         padding: 50px 30px;
-        margin: 30px 0;
+        margin: 30px auto;
       }
       .profile_info {
         .name_wrapper {
@@ -350,7 +350,11 @@ body {
               list-style: none;
               display: flex;
               flex-wrap: wrap;
-              width: 600px;
+              width: calc(100% - 300px);
+              @media only screen and (max-width: 767px) {
+                width: 100%;
+                padding: 10px;
+              }
               li {
                 display: inline-block;
                 margin: 0 30px 30px 0;
@@ -490,6 +494,9 @@ body {
           }
           .logo {
             margin-left: 50px;
+            img {
+              max-width: 100%;
+            }
             @media only screen and (max-width: 767px) {
               margin-left: 0;
               margin-top: 20px;
@@ -794,6 +801,10 @@ body {
                   color: #1e1c24;
                   width: 200px;
                   display: inline-block;
+                  @media only screen and (max-width: 767px) {
+                    display: block;
+                  }
+                  
                 }
                 &.detail {
                   font-size: 24px;
