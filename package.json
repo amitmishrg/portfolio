@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Simple portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && node server/application.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amituidev/portfolio.git"
+  },
+  "author": "Amit Mishra <amitmishra009v@gmail.com> (http://amituidev.github.io/portfolio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amituidev/portfolio/issues"
+  },
+  "homepage": "https://github.com/amituidev/portfolio#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4"
+  }
+}
