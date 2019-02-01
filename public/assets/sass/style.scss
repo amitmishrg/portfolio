@@ -797,7 +797,7 @@ body {
             list-style: none;
             padding: 0;
             li {
-              display: block;
+              display: flex;
               padding: 10px 0;
               &:last-child {
                 border-bottom: none;

@@ -672,7 +672,7 @@ body {
           list-style: none;
           padding: 0; }
           body .sectionSeven .section_six_wrapper .description .basic_info_list ul li {
-            display: block;
+            display: flex;
             padding: 10px 0; }
             body .sectionSeven .section_six_wrapper .description .basic_info_list ul li:last-child {
               border-bottom: none; }
