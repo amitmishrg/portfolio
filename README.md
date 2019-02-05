@@ -1,5 +1,5 @@
 # Portfolio
-Simple portfolio
+Portfolio Design
 
 # Link
-https://amituidev.github.io/portfolio/
+http://amitmishra.tk
