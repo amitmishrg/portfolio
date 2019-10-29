@@ -523,13 +523,17 @@ body {
             position: absolute;
             left: 0;
             right: 0;
-            top: 46%; }
+            top: 50%;
+            transform: translateY(-50%); }
             body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img .overlay .description h3 {
               font-family: "Roboto", sans-serif;
               font-size: 30px;
               font-weight: 500;
               color: #ffffff;
               margin: 0; }
+            body .sectionFive .section_five_wrapper .portfolio_list .portfolio_info .portfolio_img .overlay .description a {
+              display: block;
+              margin-top: 10px; }
   body .sectionSix {
     position: relative;
     padding-top: 100px;

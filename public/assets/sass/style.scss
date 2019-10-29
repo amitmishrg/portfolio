@@ -615,13 +615,18 @@ body {
                 position: absolute;
                 left: 0;
                 right: 0;
-                top: 46%;
+                top: 50%;
+                transform: translateY(-50%);
                 h3 {
                   font-family: $font;
                   font-size: 30px;
                   font-weight: 500;
                   color: #ffffff;
                   margin: 0;
+                }
+                a {
+                  display: block;
+                  margin-top: 10px;
                 }
               }
             }
